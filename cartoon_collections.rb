@@ -16,7 +16,5 @@ def list_dwarves(array)
   array[dwarf] = index
   index += 1
 }
-count = "#{index}. #{dwarf}\n"
 end
-puts count
 end
