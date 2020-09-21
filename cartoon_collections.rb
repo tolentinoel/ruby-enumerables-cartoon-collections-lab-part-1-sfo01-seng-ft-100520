@@ -16,3 +16,4 @@ def list_dwarves(array)
   index += 1
 }
 end
+end
