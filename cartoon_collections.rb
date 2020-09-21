@@ -11,10 +11,11 @@ def list_dwarves(array)
   #
   # Print a numbered list of each element
   
-  array.each_with_index { |item, index|
-  index = array[item]
+  array.each_with_index { |dwarf,index|
+  index = array[dwarf]
 
 }
-puts index
+count = "#{index}. #{dwarf}\n"
 end
+puts count
 end
