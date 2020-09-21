@@ -13,7 +13,8 @@ def list_dwarves(array)
   
   array.each_with_index { |item, index|
   index = array[item]
-  puts index += 1
+  index += 1
+  puts "#{array[item]}"
 }
 
 end
